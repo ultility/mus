@@ -7,7 +7,7 @@ using Android.Runtime;
 using AndroidX.AppCompat.App;
 using Android.Content;
 
-namespace App6
+namespace App7
 {
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
     public class MainActivity : AppCompatActivity

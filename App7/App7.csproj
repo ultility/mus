@@ -109,14 +109,30 @@
     <AndroidResource Include="Resources\layout\layout2.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
-    <Content Include="Resources\raw\ci.mp3" />
-    <Content Include="Resources\raw\do.mp3" />
-    <Content Include="Resources\raw\fa.mp3" />
-    <Content Include="Resources\raw\la.mp3" />
-    <Content Include="Resources\raw\mi.mp3" />
-    <Content Include="Resources\raw\re.mp3" />
-    <Content Include="Resources\raw\so.mp3" />
-    <Content Include="Resources\raw\song.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\raw\mi.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\raw\ci.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\raw\doh.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\raw\fa.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\raw\la.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\raw\re.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\raw\so.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\raw\song.mp3" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

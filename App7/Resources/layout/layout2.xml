@@ -7,7 +7,7 @@
         android:layout_width="50dp"
         android:layout_height="200dp"
         android:background="@android:color/black"
-        android:id="@id/doSound"/>
+        android:id="@+id/doSound"/>
         <Button
         android:layout_width="50dp"
         android:layout_height="200dp"
