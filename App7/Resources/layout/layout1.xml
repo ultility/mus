@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TextView
+    android:layout_width="150dp"
+    android:layout_height="50dp"
+        android:text="Media Player"
+        android:id="@+id/textView1"
+        android:gravity="center"
+    android:layout_centerHorizontal="true"/>
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:id="@+id/bar"
+        android:layout_below="@id/textView1"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="start"
+        android:layout_below="@id/bar"
+        android:layout_centerHorizontal="true"
+    android:id="@+id/start"/>
+        <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="stop"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/start"
+    android:id="@+id/pause"/>
+<Button
+     android:layout_width="100dp"
+     android:layout_height="50dp"
+        android:text="TO THE PIANO"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/pause"
+    android:id="@+id/piano"/>
+</RelativeLayout>
